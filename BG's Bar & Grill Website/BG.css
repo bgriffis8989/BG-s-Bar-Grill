@@ -1,0 +1,404 @@
+
+
+
+
+.homepage {
+	font-family: Arial;
+	
+}
+
+.maintitle {
+	background-color: red;
+	color: lightgray;
+	text-shadow: 2px 2px 2px black;
+	font-size: 160%;
+	border: 2px solid black;
+	border-radius: 10px;
+	text-align: center;
+	
+}
+
+#header {
+	background-color: red;
+	color: Lightgrey;
+	text-shadow: 2px 2px 2px black;
+	font-size: 160%;
+	border: 2px solid black;
+	border-radius: 10px;
+	text-align: center;
+}
+#homebody {
+		background-image: url("img/grill.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+}
+
+.nav ul {
+	list-style:none;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	background-color: rgba(248, 245, 245, 0.2);
+	font-size: 17px;
+	font-weight: bold;
+	border-radius: 10px;
+	
+}
+
+.nav li {
+	display: inline-block;
+}
+
+
+.nav a {
+	text-decoration: none;
+	width: 50px;
+	padding: 15px;
+	color: white;
+}
+
+.nav a:hover {
+	color: red;
+	}
+
+.menuItems a {
+	color: black;
+}
+
+#description {
+	max-width:100%;
+	margin-top: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: xx-large;
+
+}
+
+@media screen and (max-width: 900px) {
+	#description {
+		font-size: 20pt;
+		font-weight: bold;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	#description {
+		font-size: 12pt;
+		font-weight: bold;
+	}
+}
+
+#menuTitle {
+	border-radius: 10px;
+}
+
+.menuBody {
+	max-width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	background-color: dimgrey;
+	
+
+	
+}
+
+.menuItems {
+	border: 5px dotted red;
+	border-radius: 10px;
+	font-size: xx-large;
+}
+
+@media screen and (max-width: 900px) {
+	.menuItems {
+		font-size: 17pt;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.menuItems {
+		font-size: 12pt;
+	}
+}
+
+.menuNav {
+	background-color: rgba(200, 200, 200, .4);
+	height: 20px;
+	text-align: justify;
+	margin-top: 0px;
+	font-size: 17px;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+.menuNav a {
+	color: floralwhite;
+	text-decoration: none;
+	width: 50px;
+	padding: 15px;
+}
+
+.menuNav a:hover {
+	color: red;
+}
+
+.menuChicken {
+	max-width: 100%;
+	height: auto;
+}
+
+.breakfastcheeseburgersmall {
+	max-width: 100%;
+	height: auto;
+}
+
+.menuMeatballs {
+	max-width: 100%;
+	height: auto;
+}
+
+.aboutBody {
+	background-color: gray;
+	max-width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+.aboutWrapper {
+	max-width:100%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	
+}
+
+.map {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	border-radius: 10px;
+	max-width: 100%;
+	height: auto;
+}
+
+#aboutNav {
+	background-color: rgba(200, 200, 200, .4);
+	height: 20px;
+	text-align: justify;
+	margin-top: 0px;
+	font-size: 17px;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+#aboutNav a {
+	color: floralwhite;
+	text-decoration: none;
+	width: 50px;
+	padding: 15px;
+}
+
+#aboutNav a:hover {
+	color: red;
+}
+
+
+.aboutForm {
+	background-color: rgba(250, 249, 249, 0.2);
+	border: 4px solid red;
+	text-align: center;
+	color: black;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+#aboutDescription {
+	font-size: 24pt;
+}
+
+@media screen and (max-width: 900px) {
+	#aboutDescription {
+		font-size: 17pt;
+		}
+	}
+
+@media screen and (max-width: 500px) {
+#aboutDescription {
+	font-size: 12pt;
+	}
+}
+
+#chickbody {
+	color: red;
+	background-image: url("img/buffchick.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+#chicktext {
+	text-shadow: 1px 1px 1px black;
+}
+
+
+#buffchickDescription {
+	font-size: 28pt;
+	margin-left: 20%;
+	margin-right: 20%;
+	
+}
+
+@media screen and (max-width: 900px) {
+	#buffchickDescription {
+font-size: 17pt;
+	}
+}
+
+#chickingrediants {
+	
+	
+}
+
+#chickenNav {
+	background-color: rgba(200, 200, 200, .4);
+	height: 20px;
+	text-align: justify;
+	margin-top: 0px;
+	font-size: 17px;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+#chickenNav a {
+	color: floralwhite;
+	text-decoration: none;
+	width: 50px;
+	padding: 15px;
+}
+
+#chickenNav a:hover {
+	color: red;
+}
+
+#aboutDescription {
+	
+}
+
+.menuChicken {
+	border-radius: 10px;
+}
+
+.menuMeatballs {
+	border-radius: 10px;
+}
+
+#spaghettiMain {
+	background-image: url("img/meatballs.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-shadow: 1px 1px 1px black;
+	color: red;
+	max-width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+.meatballText {
+	text-shadow: 1px 1px 1px black;
+}
+
+#meatballDescription {
+	font-size: 28pt;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+@media screen and (max-width: 900px) {
+	#meatballDescription {
+		font-size: 17pt;
+	}
+}
+
+#meatballNav {
+	background-color: rgba(200, 200, 200, .4);
+	height: 20px;
+	text-align: justify;
+	margin-top: 0px;
+	font-size: 17px;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+#meatballNav a{
+	color: floralwhite;
+	text-decoration: none;
+	width: 50px;
+	padding: 15px;
+}
+
+#meatballNav a:hover {
+	color: red;
+}
+
+.breakfastcheeseburgersmall {
+	border-radius: 10px;
+}
+
+#breakfastBody {
+	background-image: url("img/breakfastcheeseburger.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-shadow: 1px 1px 1px black;
+	color: red;
+	max-width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+.burgerNav {
+	background-color: rgba(200, 200, 200, .4);
+	height: 20px;
+	text-align: justify;
+	margin-top: 0px;
+	font-size: 17px;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+.burgerNav a {
+	color: floralwhite;
+	text-decoration: none;
+	width: 50px;
+	padding: 15px;
+}
+
+.burgerNav a:hover {
+	color: red;
+}
+
+.burgerText {
+	text-shadow: 1px 1px 1px black;
+}
+
+#burgerDescription {
+	font-size: 28pt;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+@media screen and (max-width: 900px) {
+	#burgerDescription {
+		font-size: 17pt;
+	}
+}
+
